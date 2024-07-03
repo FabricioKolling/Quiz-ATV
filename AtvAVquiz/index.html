@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img src="img/header.png" alt="titulo">
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div class="PerguntasCaixa">
+
+            <div id="meioPerguntas">
+
+                <h2>Pergunta 1</h2>
+                <p>O primeiro desenho do Ben 10 foi criado em que ano?</p>
+
+            </div>
+
+            <div id="meioPerguntas">
+
+                <h2>Pergunta 2</h2>
+                <p>Qual é o alien mais forte do desenho?</p>
+                
+            </div>
+
+            <div id="meioPerguntas">
+
+                <h2>Pergunta 3</h2>
+                <p>O primeiro desenho do Ben 10 foi criado em que ano?</p>
+                
+            </div>
+
+        </div>
+
+        
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div class="EscolhaCaixa">
+
+            <div id="meioLabels">
+
+                <h2>Escolha sua resposta:</h2>
+            </div>
+
+            <div id="meioLabels">
+
+                <h2>Escolha sua resposta:</h2>
+            </div>
+
+            <div id="meioLabels">
+
+                <h2>Escolha sua resposta:</h2>
+            </div>
+        </div>
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div class="RespostasCaixa">
+
+            <div id="meioSelects">
+
+                <select id="selectMenu">
+
+                    <option value="0">Resposta</option>
+                    <option value="1">2005</option>
+                    <option value="0">2006</option>
+                    <option value="0">2007</option>
+
+                </select>
+            </div>
+
+            <div id="meioSelects">
+
+                <select id="selectMenu">
+
+                    <option value="0">Resposta</option>
+                    <option value="1">2005</option>
+                    <option value="0">2006</option>
+                    <option value="0">2007</option>
+
+                </select>
+            </div>
+
+            <div id="meioSelects">
+
+                <select id="selectMenu">
+
+                    <option value="0">Resposta</option>
+                    <option value="1">2005</option>
+                    <option value="0">2006</option>
+                    <option value="0">2007</option>
+
+                </select>
+            </div>
+        </div>
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <center>
+            <div id="baixoResultado">
+                <label style="color: white;">Sua Pontuação</label>
+                <input type="text" id="pontuacao" readonly>
+            </div>
+        </center>
+
+    </div>
+
+    <script src="lógica-quiz.js"></script>
+
+</body>
+</html>
