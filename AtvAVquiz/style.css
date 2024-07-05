@@ -28,11 +28,8 @@ h2{
 .quest{
 
     width: 80%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 15px;
-}
+    margin-left: 10%;
+}   
 
 #container{
 
@@ -55,7 +52,6 @@ h2{
 #meioPerguntas{
  
     width: 28%;
-    border: solid black 5px;
     background-color: rgb(255, 255, 255);
     align-items: center;
     text-align: center;
@@ -77,6 +73,7 @@ h2{
     text-align: center;
     justify-content: center;
     margin: auto;
+    
 }
 .EscolhaCaixa{
 
@@ -99,24 +96,26 @@ select{
     font-size: 15px;
     border-radius: 0px;
     border: none;
+    cursor: pointer;
+
 }
 
 option{
     
     font-size: 15px;
-
+    
 }
 
-#meioSelects{
-
-    height: 27%;
-    background-color: aquamarine;
+button:hover{
+    
+    cursor: pointer;
+    background-color: #C8BFE7;
 
 }
 
 #baixoResultado{
+
     margin-top: 100px;
     font-size: 25px;
-
 
 }
